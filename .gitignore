@@ -9,3 +9,4 @@ geckodriver.log
 *.pem
 static/
 staticfiles/
+random.txt

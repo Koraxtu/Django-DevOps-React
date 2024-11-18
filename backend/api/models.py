@@ -1,7 +1,7 @@
-from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin # type: ignore
-from django.db import models # type: ignore
-from django.utils import timezone # type: ignore
-from django.utils.translation import gettext_lazy as _ # type: ignore
+from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin
+from django.db import models
+from django.utils import timezone
+from django.utils.translation import gettext_lazy as _
 
 from .managers import CustomUserManager
 

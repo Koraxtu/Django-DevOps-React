@@ -1,4 +1,4 @@
-from django.contrib.auth.forms import UserChangeForm, UserCreationForm # type: ignore
+from django.contrib.auth.forms import UserChangeForm, UserCreationForm
 
 from .models import CustomUser
 

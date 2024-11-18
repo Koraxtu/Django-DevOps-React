@@ -1,7 +1,7 @@
-from django.contrib import admin # type: ignore
+from django.contrib import admin
 
 # Register your models here.
-from django.contrib.auth.admin import UserAdmin # type: ignore
+from django.contrib.auth.admin import UserAdmin
 
 from .forms import CustomUserChangeForm, CustomUserCreationForm
 from .models import CustomUser
